@@ -1,12 +1,8 @@
-# Data Analytics Case Study
-A collection of visualizations for over 2000 Data Analytics Jobs pulled from Glassdoor in the United States
-
 # Introduction: 
-The purpose of this case study is to create visualizations for data analytics jobs in order to provide stakeholders information on salaries.
+The purpose of this case study is to understand the Data Science/Engineer/Analyst job market.
 
 # About This Dataset
 This dataset was created by <a href="https://github.com/picklesueat/data_jobs_data">picklesueat</a> and contains more than 2000 job listing for data analyst positions, with features such as:
-
 <ul>
   <li> Salary Estimate
   <li> Location
@@ -16,7 +12,6 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
 </ul>
 
 # Problems: 
-
 <ul>
   <li> What is the salary spread of Data Analyst Jobs?
     <ul>
@@ -25,7 +20,7 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
           <li> Spread of Maximum Starting Salary
     </ul>
       <li> What does the Salary Spread look like per sector?
-            <li> Is there a correlation between job ranking and salary?
+            <li> Is there a correlation between Job Rating and Salary?
         </ul>
 
 
