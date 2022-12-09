@@ -1,8 +1,19 @@
-# Data-Analytics-Case-Study
+# Data Analytics Case Study
 A collection of visualizations for over 2000 Data Analytics Jobs pulled from Glassdoor in the United States
 
 # Introduction: 
 The purpose of this case study is to create visualizations for data analytics jobs in order to provide stakeholders information on salaries.
+
+# About This Dataset
+This dataset was created by <a href="[url](https://github.com/picklesueat/data_jobs_data)">picklesueat</a> and contains more than 2000 job listing for data analyst positions, with features such as:
+
+<ul>
+  <li>Salary Estimate
+  <li>Location
+  <li>Company Rating
+  <li>Job Description
+  <li>and more.
+</ul>
 
 # Problems: 
 You need to identify what the major problems are, explain how you have analyzed the problem, and present any facts you are using to support your findings.
