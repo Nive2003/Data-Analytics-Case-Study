@@ -32,5 +32,7 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
 
 
 # Conclusion: 
-End your presentation by summarizing key takeaways of all of the problem-solving you conducted, highlighting what you have learned from this.
 
+Our t-statistic of 1.89 with a very high standard error does not meet the statistical threshold of significance.
+The estimate shows us that for every unit increase in rating, the salary increases by $1506. While our P value is 0.058, higher than any alpha threshold would bear as significant.
+So the long answer to the original question is: yes there is a correlation between rating and salary; however, it is not a significant linear correlation.
