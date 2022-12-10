@@ -25,14 +25,9 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
 
 
 # Solutions:
-![Rplot001 (1)](https://user-images.githubusercontent.com/83872954/206814604-bcb90168-eb3d-498c-afab-4edfb85cb23a.png)
-![Rplot003 (1)](https://user-images.githubusercontent.com/83872954/206814612-1ca20c40-f4a8-42cc-aa26-980c7d57909d.png)
-![Rplot002 (1)](https://user-images.githubusercontent.com/83872954/206814620-c409a7cc-1742-4171-a20e-fe031af5cf34.png)
-
-![Rplot002 (2)](https://user-images.githubusercontent.com/83872954/206814930-0be6d733-c874-424b-9a7d-ef958bd79765.png)
-![Rplot002 (3)](https://user-images.githubusercontent.com/83872954/206820675-a25106d2-1548-4f1c-b223-594c2b10e0d8.png)
-
-
+![Rplot001 (2)](https://user-images.githubusercontent.com/83872954/206821478-00aa9553-5b89-4f9a-a7f8-e87d9ffec19e.png)
+![Rplot003 (2)](https://user-images.githubusercontent.com/83872954/206821480-7d030ee4-0627-4ed2-9485-8ae900a2189d.png)
+![Rplot002 (4)](https://user-images.githubusercontent.com/83872954/206821481-318b33a6-1199-45a8-a1be-1e73e9ea21ca.png)
 ![Rplot004](https://user-images.githubusercontent.com/83872954/206812908-7ac56b66-3e7b-43e2-87c7-b1cd59a93222.png)
 
 
