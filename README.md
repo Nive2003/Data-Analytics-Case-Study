@@ -29,6 +29,8 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
 ![Rplot003 (1)](https://user-images.githubusercontent.com/83872954/206814612-1ca20c40-f4a8-42cc-aa26-980c7d57909d.png)
 ![Rplot002 (1)](https://user-images.githubusercontent.com/83872954/206814620-c409a7cc-1742-4171-a20e-fe031af5cf34.png)
 
+![Rplot002 (2)](https://user-images.githubusercontent.com/83872954/206814930-0be6d733-c874-424b-9a7d-ef958bd79765.png)
+![Rplot002 (3)](https://user-images.githubusercontent.com/83872954/206820675-a25106d2-1548-4f1c-b223-594c2b10e0d8.png)
 
 
 ![Rplot004](https://user-images.githubusercontent.com/83872954/206812908-7ac56b66-3e7b-43e2-87c7-b1cd59a93222.png)
