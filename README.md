@@ -11,6 +11,8 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
   <li> and more.
 </ul>
 
+The coding for this dataset was done in Rstudio and can be found in the repository.
+
 # Problems: 
 <ul>
   <li> What is the salary spread of Data Analyst Jobs?
@@ -26,9 +28,45 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
 
 # Solutions:
 
+### Data Cleaning
+
+In order to answer the problems listed above, we must ensure that our data is clean and usable. 
+
+'''
+analyst_df <- 
+  analyst_jobs_raw %>% 
+  transmute(
+    company_name = gsub("[[:digit:]]","",
+                        gsub("\\.","",
+                             company_name)),
+    job_title = str_extract(job_title,
+                            pattern = "^([^,])+"), 
+    job_description, 
+    location, 
+    rating = case_when(rating != -1 ~ as.numeric(rating), TRUE ~ NA_real_),
+    founded = case_when(founded != -1 ~ as.numeric(founded), TRUE ~ NA_real_),  
+    industry = case_when(industry != "-1" ~ as.character(industry), TRUE ~ NA_character_), 
+    sector = case_when(sector != "-1" ~ as.character(sector), TRUE ~ NA_character_),
+    
+    lower_bound_salary = str_extract(salary_estimate, 
+                                     pattern = "[:digit:]{2,3}"), 
+    lower_bound_salary = as.numeric(lower_bound_salary) * 1000, 
+    
+    upper_bound_salary = str_extract(salary_estimate, 
+                                     pattern = "([:digit:]{2,})(?=K \\(G)"),
+    upper_bound_salary = as.numeric(upper_bound_salary) * 1000, 
+    
+    average_bound = (lower_bound_salary + upper_bound_salary) / 2
+  )
+
+'''
+
 ### What is the salary spread of Data Analyst Jobs?
 
 ![Rplot001 (2)](https://user-images.githubusercontent.com/83872954/206821478-00aa9553-5b89-4f9a-a7f8-e87d9ffec19e.png)
+'''
+
+'''
 ![Rplot003 (2)](https://user-images.githubusercontent.com/83872954/206821480-7d030ee4-0627-4ed2-9485-8ae900a2189d.png)
 ![Rplot002 (4)](https://user-images.githubusercontent.com/83872954/206821481-318b33a6-1199-45a8-a1be-1e73e9ea21ca.png)
 
