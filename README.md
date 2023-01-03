@@ -1,5 +1,6 @@
 # Introduction: 
-The purpose of this case study is to understand the Data Science/Engineer/Analyst job market. The analysis of the code can be found <a href="https://www.kaggle.com/code/lawrencemak/data-analyst-dataframe?scriptVersionId=113413389">here</a>.
+The purpose of this case study is to understand the Data Science/Engineer/Analyst job market. The analysis of the code can be found <a href="https://www.kaggle.com/code/lawrencemak/data-analyst-dataframe?scriptVersionId=113413389">here</a>. 
+This knowledge will assist new and potential data analysts by providing insight into the salaries of data analysts.
 
 # About This Dataset
 This dataset was created by <a href="https://github.com/picklesueat/data_jobs_data">picklesueat</a> and contains more than 2000 job listing for data analyst positions, with features such as:
@@ -12,7 +13,7 @@ This dataset was created by <a href="https://github.com/picklesueat/data_jobs_da
 </ul>
 
 The coding for this dataset was done in Rstudio and can be found in the repository.
-The purpose of this study is to help familiarize new and upcoming data analysts into the norms of the industry. 
+
 
 # Problems: 
 <ul>
