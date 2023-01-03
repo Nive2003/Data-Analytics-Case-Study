@@ -31,9 +31,8 @@ The purpose of this study is to help familiarize new and upcoming data analysts 
 
 ### Data Cleaning
 
-In order to answer the problems listed above, we must ensure that our data is clean and usable.
-
-```
+The first step is to clean the data to ensure that it is accurate, consistent, and usable.
+```ruby
 analyst_df <- 
   analyst_jobs_raw %>% 
   transmute(
@@ -67,7 +66,7 @@ To find the salary spread of data analyst jobs, extract lower, middle, and upper
 
 
 ##### Spread of Lower Bound Starting Salary
-```
+```ruby
 ggplot(analyst_df, aes(x=lower_bound_salary)) + 
   geom_histogram(fill="lightblue1",
                  col="black")+
@@ -82,7 +81,7 @@ ggplot(analyst_df, aes(x=lower_bound_salary)) +
 The mean average lower bound salary for a data analyst is $54,267
 
 ##### Spread of Average Starting Salary
-```
+```ruby
 ggplot(analyst_df, aes(x=average_bound)) + 
   geom_histogram(
     fill="lightblue1",
@@ -99,7 +98,7 @@ ggplot(analyst_df, aes(x=average_bound)) +
 The mean salary for an average data analyst is $72,123
 
 ##### Spread of Upper Bound Starting Salary
-```
+```ruby
 ggplot(analyst_df, aes(x=upper_bound_salary)) + 
   geom_histogram(fill="lightblue1",
                  col="black")+
@@ -115,7 +114,7 @@ ggplot(analyst_df, aes(x=upper_bound_salary)) +
 
 ### What does the Salary Spread look like per sector?
 To see this, seperate the minimum, average, and maximum salaries for each sector. Afterwards, plot accordingly by using salary on the X-axis and Sectors on the Y-axis.
-```
+```ruby
 sector_df <- analyst_df %>% 
   transmute(
     val1 = lower_bound_salary,
@@ -174,7 +173,7 @@ This plot clearly visualizes the minimum, average, and maximum salary when group
 
 ### Is there a correlation between Job Rating and Salary?
 To see this, run a linear regression with Salary being the Dependant Variable and Job Rating being the independant variable.
-```
+```ruby
 lm_analyst_mod <- 
   linear_reg() %>% 
   set_engine("lm")
